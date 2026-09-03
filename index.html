@@ -14,15 +14,27 @@
     <div id="display">
     </div>
     <br>
+    <form>
     <label for="num1">Enter your First Number</label>
     <br>
-    <input type="text" name="num1" id="input1" class="form-control" placeholder="Input here">
-    <br><br>
+    <input type="text" name="num1" id="input1" class="form-control" placeholder="Input here numbers (0-9)">
+    <br>
     <label for="num2">Enter your Second Number</label>
     <br>
-    <input type="text" name="num2" id="input2" class="form-control" placeholder="Input here">
+    <input type="text" name="num2" id="input2" class="form-control" placeholder="Input here numbers (0-9)">
     <br>
+    <button type="button" py-click="adding" class="btn btn-primary">Add Values</button>
+    <button type="button" py-click="subtracting" class="btn btn-primary">Subtract Values</button>
+    <button type="button" py-click="multiplying" class="btn btn-primary">Multiply Values</button>
+    <button type="button" py-click="dividing" class="btn btn-primary">Divide Values</button>
+    <button type="button" py-click="floor_divide" class="btn btn-primary">Floor Values</button>
+    <button type="button" py-click="modulo" class="btn btn-primary">Find Modulus</button>
+    <button type="button" py-click="exponentation" class="btn btn-primary">Exponentiate</button>
+    <br>
+    <div id="output">
 
+    </div>
+    </form>
     <script type="py" src="main.py"></script>
 
 </body>
