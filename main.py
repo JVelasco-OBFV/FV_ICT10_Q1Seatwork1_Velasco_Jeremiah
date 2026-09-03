@@ -2,7 +2,7 @@ from pyscript import document, display
 
 name = "Jeremiah Michael P. Velasco" #string
 age = 14 #integer
-heightincm_172 = 172.72 #floating-number
+heightincm_172 = 170.18 #floating-number
 fav_country101_ = ["Malaysia","Spain","Italy"] #list
 student_type = False #boolean
 descriptions = {
