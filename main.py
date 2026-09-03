@@ -69,5 +69,5 @@ def exponentation(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
-    result= num1 // num2
+    result= num1 ** num2
     display(f'Your exponent power is equal to {result}.', target="output")
