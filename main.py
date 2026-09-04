@@ -9,7 +9,7 @@ descriptions = {
     "color":"Red",
     "car_brand":"Toyota",
     "shoe_size":6.8,
-    "best_friend":"Wenz Paragas"
+    "best_friend":"Wenzelvic Paragas"
 } #dictionary
 my_fav_fruits = {"lychee","blueberry","banana","green grapes","strawberry"} #set
 days_of_the_week = ("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday") #tuple 
@@ -28,46 +28,46 @@ def adding(e):
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 + num2
-    display(f'Your sum is equal to {result}.', target="output")
+    display(f'Your sum is equal to {result}', target="output")
 
 def subtracting(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 - num2
-    display(f'Your difference  is equal to {result}.', target="output")
+    display(f'Your difference  is equal to {result}', target="output")
 
 def multiplying(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 * num2
-    display(f'Your product  is equal to {result}.', target="output")
+    display(f'Your product  is equal to {result}', target="output")
 
 def dividing(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 / num2
-    display(f'Your quotient  is equal to {result}.', target="output")
+    display(f'Your quotient  is equal to {result}', target="output")
 
 def floor_divide(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 // num2
-    display(f'Your quotient (rounded down) is equal to {result}.', target="output")
+    display(f'Your quotient (rounded down) is equal to {result}', target="output")
 
 def modulo(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 % num2
-    display(f'Your remainder is equal to {result}.', target="output")
+    display(f'Your remainder is equal to {result}', target="output")
 
 def exponentation(e):
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 ** num2
-    display(f'Your exponent power is equal to {result}.', target="output")
+    display(f'Your exponent power is equal to {result}', target="output")
