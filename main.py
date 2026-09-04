@@ -23,49 +23,49 @@ display(f'Favorite Color, Car Brand, Shoe Size, and Best Friend: ',  f'{descript
 display(f'Favorite Fruits: {my_fav_fruits}', target="display")
 display(f'Ranking Days of the Week: {days_of_the_week[0]} - 3rd Place, {days_of_the_week[1]} - 5th Place, {days_of_the_week[2]} - 6th Place, {days_of_the_week[3]} - 7th Place, {days_of_the_week[4]} - 4th Place, {days_of_the_week[5]} - 2nd Place, {days_of_the_week[6]} - 1st Place', target="display")
 
-def adding(e):
+def adding(e): #gets the input values of user and adds them together to find the sum
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 + num2
     display(f'Your sum is equal to {result}', target="output")
 
-def subtracting(e):
+def subtracting(e): #gets the input values of user and subtracts value2 from value1 to find the difference
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 - num2
     display(f'Your difference  is equal to {result}', target="output")
 
-def multiplying(e):
+def multiplying(e): #gets the input values of user and multiplies them together to find the product
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 * num2
     display(f'Your product  is equal to {result}', target="output")
 
-def dividing(e):
+def dividing(e): #gets the input values of user and divides value2 from value1 to find the quotient
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 / num2
     display(f'Your quotient  is equal to {result}', target="output")
 
-def floor_divide(e):
+def floor_divide(e): #gets the input values of user, divides value2 from value1, and rounds down the nearest decimal to find the quotient
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 // num2
     display(f'Your quotient (rounded down) is equal to {result}', target="output")
 
-def modulo(e):
+def modulo(e): #gets the input values of user, divides value2 from value1, and displays the remainder as the output
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
     result= num1 % num2
     display(f'Your remainder is equal to {result}', target="output")
 
-def exponentation(e):
+def exponentation(e): #gets the input values of user, raises the base (value1) to an exponent (value2), and computes for the final answer
     document.getElementById("output").innerHTML = ""
     num1= float(document.getElementById("input1").value)
     num2= float(document.getElementById("input2").value)
